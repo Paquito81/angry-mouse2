@@ -1,7 +1,5 @@
 # angry-mouse2
-
-// 1. Prompt the user for the password criteria
-//    a. Password lenght 8 < 128
-//    b. Lowercase, uppercase, numbers ,special characters
-// 2. Validate the input.
-// 3. Display the password to the page
+This is a password generator helps create a perfect secure password for you. 
+With a mix of combinations and letters only known to you.
+If you have a hard time thinking of a password this is perfect tool for you.
+It is set with a set of different combinations from lowercase, uppercase, numbers and even special characters.

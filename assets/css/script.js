@@ -26,7 +26,7 @@ generateBtn.addEventListener("click", generatePassword)
 
 function generatePassword() {
    //users input
-    lengthConfirm = parseInt(prompt("How many characters would you like your password to contain? (8 - 128 characters"));
+    var lengthConfirm = parseInt(prompt("How many characters would you like your password to contain? (8 - 128 characters"));
 
     if(!lengthConfirm) {
         alert("Please add value");
@@ -48,24 +48,29 @@ function generatePassword() {
        return 
    }
    //when choosing one option
-    else if (specialCharactersConfirm) {
-       pickChoices = pickChoices.concat(specialArr);
+    if (specialCharactersConfirm) {
+        pickChoices = pickChoices.concat(specialArr);
        console.log(pickChoices)
+       
    }
-    else if (numberCharactersConfirm) {
-       pickChoices = pickChoices.concat(digits);
+    if (numberCharactersConfirm) {
+        pickChoices = pickChoices.concat(digits);
        console.log(pickChoices)
+       
    }
-   else if (upperCharactersConfirm) {
+    if (upperCharactersConfirm) {
        pickChoices = pickChoices.concat(upperLetters);
        console.log(pickChoices)
+       
    }
-    else if (lowerCharactersConfirm) {
+    if (lowerCharactersConfirm) {
        pickChoices = pickChoices.concat(letters);
        console.log(pickChoices)
-   }
+       
+    }
+
    
-    console.log(pickChoices)
+    console.log(pickChoices);
      var password = [];
 
     // Selection for all variables

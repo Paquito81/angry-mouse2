@@ -6,3 +6,4 @@ It is set with a set of different combinations from lowercase, uppercase, number
 <img width="1440" alt="Screen Shot 2022-02-22 at 10 53 19 PM" src="https://user-images.githubusercontent.com/95262020/155268435-69d15497-1637-4bc3-a395-0a17d45139ef.png">
 https://paquito81.github.io/angry-mouse2/
 git@github.com:Paquito81/angry-mouse2.git
+https://github.com/Paquito81/angry-mouse2.git
